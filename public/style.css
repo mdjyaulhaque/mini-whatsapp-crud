@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.chat{
+    background-color: white;
+    width: 350px;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.message{
+    background-color: #dcf8c6;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* New Chat Button */
+.new-btn{
+    background-color: #25D366;
+    color: white;
+}
+
+.new-btn:hover{
+    transform: scale(1.05);
+}
+
+/* Edit Button */
+.edit-btn{
+    background-color: #3498db;
+    color: white;
+    margin-right: 10px;
+}
+
+.edit-btn:hover{
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+/* Delete Button */
+.delete-btn{
+    background-color: #e74c3c;
+    color: white;
+    margin-left: 230px;
+
+}
+
+.delete-btn:hover{
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+/* Keep forms in one line */
+.delete-form,
+.chat form{
+    display: inline-block;
+    
+}
